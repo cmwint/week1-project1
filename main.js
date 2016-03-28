@@ -64,11 +64,13 @@ console.log(stringNum1/stringNum2);
 console.log("Question 6");
 var reply = prompt('Hey there, good looking stranger! Pick a number please', '');
 alert('Your answer doubled: ' + reply*2 );
+console.log(reply);
 
 //7. Create a custom alert.
 
 console.log("Question 7");
-alert('I love cats');
+alert('Fun fact: The average woman uses her height in lipstick every 5 years.');
+console.log('Custom alert was the fun fact.');
 
 //8. Declare three variables called length, width and height. 
 //   Calculate area and volume.
@@ -98,3 +100,10 @@ console.log(response);
 //10. Create an alert that uses the response from a prompt.
 
 console.log("Question 10");
+var answer = prompt('Who is the current president of the United States?', '');
+console.log(answer);
+if(answer = 'Obama' || 'Barack Obama'){
+	alert('Good job! You keep up on current events.');
+}else{
+	alert('Sorry! That\'s not right. Do you even live in the US?');
+}
