@@ -7,15 +7,13 @@
 //1. Log your name to the console (as a string).
 
 console.log("Question 1");
-
-var myName = 'Corinne';
-console.log(myName);
+console.log('Corinne');
 
 //2. Declare a variable called 'name', and then log it to the console.
 
 console.log("Question 2");
 
-var name;
+var name = 'Corinne';
 console.log(name);
 
 //3. Declare two variables with number values. 
@@ -26,9 +24,9 @@ console.log("Question 3");
 var num1 = 4;
 var num2 = 10;
 
-console.log(num1+num2);
-console.log(num1*num2);
-console.log(num1/num2);
+console.log(num1 + num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
 
 //4. Declare two variables with string values. 
 //   Create a third variable that concatenates them.
@@ -50,20 +48,20 @@ var stringNum1 = '5';
 var stringNum2 = '3';
 
 //add - strings are concatenated together
-console.log(stringNum1+stringNum2);
+console.log(stringNum1 + stringNum2);
 //subtract - strings are converted to numbers
-console.log(stringNum1-stringNum2);
+console.log(stringNum1 - stringNum2);
 //mutiply - strings are converted to numbers
-console.log(stringNum1*stringNum2);
+console.log(stringNum1 * stringNum2);
 //divide - strings are converted to numbers
-console.log(stringNum1/stringNum2);
+console.log(stringNum1 / stringNum2);
 
 //6. Create a prompt that asks a user to pick a number. 
 //   Then double the answer.
 
 console.log("Question 6");
 var reply = prompt('Hey there, good looking stranger! Pick a number please', '');
-alert('Your answer doubled: ' + reply*2 );
+alert('Your answer doubled: ' + reply * 2 );
 console.log(reply);
 
 //7. Create a custom alert.
@@ -81,8 +79,8 @@ var length = 4;
 var width = 6;
 var height = 2;
 
-console.log('Area = ' + length*width);
-console.log('Volume = ' + length*width*height);
+console.log('Area = ' + length * width);
+console.log('Volume = ' + length * width * height);
 
 //9. Ask for a user's name, age and city. 
 //   In a single command display/log the sentence:
