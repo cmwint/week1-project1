@@ -62,7 +62,7 @@ console.log(stringNum1 / stringNum2);
 console.log("Question 6");
 var reply = prompt('Hey there, good looking stranger! Pick a number please', '');
 alert('Your answer doubled: ' + reply * 2 );
-console.log(reply);
+console.log(reply * 2);
 
 //7. Create a custom alert.
 
